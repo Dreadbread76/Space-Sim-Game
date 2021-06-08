@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Spacegame.Ship.Player;
 using UnityEngine;
+using TMPro;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(ShipPhysics))]
@@ -13,12 +14,19 @@ public class Ship : MonoBehaviour
 
     private int currentHealth;
     private int maxHealth = 100;
-    
+
+    [SerializeField]
+    private TMP_Text healthText;
+    private TMP_Text shieldText;
+
+
 
     private void Awake()
     {
         input = GetComponent<ShipInput>();
         physics = GetComponent<ShipPhysics>();
+
+        currentHealth = maxHealth;
 
         if(input == null || physics == null)
         {

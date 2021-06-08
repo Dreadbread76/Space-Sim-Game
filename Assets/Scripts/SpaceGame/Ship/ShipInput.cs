@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 namespace Spacegame.Ship.Player
 {
@@ -23,7 +24,9 @@ namespace Spacegame.Ship.Player
         private float throttleSpeed = 0f;
         [SerializeField]
         private float rollSpeed = 5f;
-   
+
+        [SerializeField]
+        public TMP_Text throttleText;
 
         private void Update()
         {
@@ -38,6 +41,7 @@ namespace Spacegame.Ship.Player
                 Fire();
             }
       
+
         
         
         }
@@ -69,6 +73,7 @@ namespace Spacegame.Ship.Player
         {
             throttle += Input.GetAxis("Mouse ScrollWheel");
             throttle = Mathf.Clamp01(throttle);
+            throttleText.text = "Throttle: " + Mathf.Round(throttle * 100f).ToString("000") + "%";
         }
 
         private void Fire()
