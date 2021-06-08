@@ -1,0 +1,263 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ryana/Documents/GitHub/Space Sim Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50725
+Successfully changed project path to: C:/Users/ryana/Documents/GitHub/Space Sim Game
+C:/Users/ryana/Documents/GitHub/Space Sim Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ryana/Documents/GitHub/Space Sim Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003677 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.2 MB.
+System memory in use after: 110.4 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2815.
+Total: 4.266200 ms (FindLiveObjects: 0.388300 ms CreateObjectMapping: 0.287100 ms MarkObjects: 2.215300 ms  DeleteObjects: 1.374200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674244cbdd3d5e380027dda0f282aa8e') in 0.099617 seconds
+  Import took 0.104486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.547119 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3dfc220ea160b8fd79d661da34548d') in 0.005788 seconds
+  Import took 0.011255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056877 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3dfc220ea160b8fd79d661da34548d') in 0.006900 seconds
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.283488 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673da5ada09f9e7d69c615be919a995e') in 0.006567 seconds
+  Import took 0.013468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043299 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673da5ada09f9e7d69c615be919a995e') in 0.006352 seconds
+  Import took 0.012389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.765275 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ff6c8d4ec286f1c026933b32b6147d') in 0.006845 seconds
+  Import took 0.011421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070189 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ff6c8d4ec286f1c026933b32b6147d') in 0.007049 seconds
+  Import took 0.013460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.251505 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0203a6d68b4eeced5bcd33570c7cea') in 0.006078 seconds
+  Import took 0.011041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040145 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0203a6d68b4eeced5bcd33570c7cea') in 0.006986 seconds
+  Import took 0.011774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.014111 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02e3c09b2159ce1a59a84f891b5e8fc') in 0.007954 seconds
+  Import took 0.019731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095527 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02e3c09b2159ce1a59a84f891b5e8fc') in 0.014857 seconds
+  Import took 0.022148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.665948 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1986b5bae8f57cfd0bae12bfc738b666') in 0.006183 seconds
+  Import took 0.010778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046938 seconds.
+  path: Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs
+  artifactKey: Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/ChangeRenderTexture.cs using Guid(d185059c7bf4b104eb9bcc2cd5c8771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1986b5bae8f57cfd0bae12bfc738b666') in 0.005930 seconds
+  Import took 0.011353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1959.099946 seconds.
+  path: Assets/Defence_Jump.fbx
+  artifactKey: Guid(d3d695d9a4a107c48a904889e05bfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Defence_Jump.fbx using Guid(d3d695d9a4a107c48a904889e05bfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e909aad727baf34dd0ab60cadffb8b7') in 0.085247 seconds
+  Import took 0.090720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.919211 seconds.
+  path: Assets/Defence_Jump.fbx
+  artifactKey: Guid(d3d695d9a4a107c48a904889e05bfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Defence_Jump.fbx using Guid(d3d695d9a4a107c48a904889e05bfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fa14fa6853773c788abed5928c1462') in 0.008791 seconds
+  Import took 0.014835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 651.877055 seconds.
+  path: Assets/Defence_hover.fbx
+  artifactKey: Guid(80544a2409a08c24ea4b15cf4b5abdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Defence_hover.fbx using Guid(80544a2409a08c24ea4b15cf4b5abdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab7b658954dd370efd5eaac5963b5cd') in 0.367493 seconds
+  Import took 0.373486 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.179 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2328 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.9 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2899.
+Total: 4.424900 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.236000 ms MarkObjects: 2.395700 ms  DeleteObjects: 1.423000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.340376 seconds.
+  path: Assets/Makh_4.controller
+  artifactKey: Guid(27522d5cc79c757418ad2e5b9b834c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makh_4.controller using Guid(27522d5cc79c757418ad2e5b9b834c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32439fb64ba565b314411c4e596be26b') in 0.031313 seconds
+  Import took 0.036579 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2328 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.9 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2901.
+Total: 5.063500 ms (FindLiveObjects: 0.707700 ms CreateObjectMapping: 0.449300 ms MarkObjects: 2.415200 ms  DeleteObjects: 1.489900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
