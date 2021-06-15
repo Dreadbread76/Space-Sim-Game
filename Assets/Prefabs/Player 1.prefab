@@ -486,6 +486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82446bec67a53c4daeba08ee1d9ef27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 1580635960785796669}
   pitch: 0
   yaw: 0
   roll: 0
@@ -495,6 +496,7 @@ MonoBehaviour:
   throttleSpeed: 0.1
   rollSpeed: 0
   throttleText: {fileID: 0}
+  miningText: {fileID: 0}
 --- !u!114 &1696733840
 MonoBehaviour:
   m_ObjectHideFlags: 0

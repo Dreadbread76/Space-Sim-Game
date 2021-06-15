@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Asteroid : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    public int resourceAmount;
     void Start()
     {
         

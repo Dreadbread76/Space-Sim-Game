@@ -7,6 +7,10 @@ namespace Spacegame.Ship.Player
 {
     public class ShipInput : MonoBehaviour
     {
+        [SerializeField] private Camera cam;
+        
+        
+        [Header("Movement")]
         [Range(-1, 1)]
         public float pitch;
         [Range(-1, 1)]
@@ -17,7 +21,6 @@ namespace Spacegame.Ship.Player
         public float strafe;
         [Range(0, 1)]
         public float throttle;
-
         [Range(0, 1)]
         public float sensitivityMulti;
         [SerializeField]
@@ -25,8 +28,12 @@ namespace Spacegame.Ship.Player
         [SerializeField]
         private float rollSpeed = 5f;
 
+        [Header("UI")]
         [SerializeField]
         public TMP_Text throttleText;
+        [SerializeField] private TMP_Text miningText;
+
+        [Header("Mining")] private float miningDist;
 
         private void Update()
         {
@@ -40,10 +47,49 @@ namespace Spacegame.Ship.Player
             {
                 Fire();
             }
-      
+            
+            RaycastHit hit;
 
-        
-        
+            if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, miningDist))
+            {
+                Asteroid selectedAst = hit.transform.gameObject.GetComponent<Asteroid>();
+                
+                if(selectedAst != null && miningText != null)
+                {
+                    miningText.gameObject.SetActive(true);
+
+                    if(selectedAst.resourceAmount > 0)
+                    {
+                        miningText.text = "Press F To mine" + "\nOil left: "+ selectedAst.resourceAmount;
+                    }
+                    else
+                    {
+                        miningText.text = "No More Oil";
+
+                        if (Input.GetKey(KeyCode.F))
+                        {
+                            
+                            
+                           MineAsteroid(selectedAst);
+
+
+                        }
+
+                    }
+                }
+                else
+                {
+                   miningText.gameObject.SetActive(false);
+                }
+                
+
+            }
+
+            
+
+
+
+
         }
         private void SetStickCommandUsingMouse()
         {
@@ -77,6 +123,11 @@ namespace Spacegame.Ship.Player
         }
 
         private void Fire()
+        {
+            
+        }
+
+        private void MineAsteroid(Asteroid selectedAst)
         {
             
         }

@@ -34,7 +34,7 @@ public class ChangeRenderTexture : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void ChangeBitRate(RenderRate _rate)
+    public void ChangeBitRate(RenderRate _rate)
     {
         if (cam.targetTexture != null)
         {
