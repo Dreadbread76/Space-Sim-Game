@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using UnityEngine;
 
 public class WriteConsoleToFile : MonoBehaviour
@@ -26,18 +27,20 @@ public class WriteConsoleToFile : MonoBehaviour
       //  file = new System.IO.StreamWriter(fileName, true);
 
         System.IO.StreamWriter file = new System.IO.StreamWriter(fileName, true);
-        
+
         try
         {
-          
-            file.WriteLine("[" + System.DateTime.Now.ToString("d : t") + "]" + logString + "\n"+ stackTrace);
+
+            file.WriteLine("[" + System.DateTime.Now.ToString("d : t") + "]" + logString + "\n" + stackTrace);
+
+           // throw new DataException();
         }
-        catch(System.IO.IOException e)
+        catch (System.IO.IOException e)
         {
             Application.logMessageReceived -= Log;
             Debug.LogError(e);
         }
-        catch(System.Exception e)
+        catch (System.Exception e)
         {
             Application.logMessageReceived -= Log;
             Debug.LogError(e);

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,7 +34,14 @@ namespace Spacegame.Ship.Player
         public TMP_Text throttleText;
         [SerializeField] private TMP_Text miningText;
 
-        [Header("Mining")] private float miningDist;
+        [Header("Mining")] 
+        [SerializeField]private float miningDist;
+        private int resourceAmount;
+
+        private void Start()
+        {
+            miningText.gameObject.SetActive(false);
+        }
 
         private void Update()
         {
@@ -52,6 +60,7 @@ namespace Spacegame.Ship.Player
 
             if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, miningDist))
             {
+
                 Asteroid selectedAst = hit.transform.gameObject.GetComponent<Asteroid>();
                 
                 if(selectedAst != null && miningText != null)
@@ -129,9 +138,11 @@ namespace Spacegame.Ship.Player
 
         private void MineAsteroid(Asteroid selectedAst)
         {
-            
+            selectedAst.resourceAmount--;
+            resourceAmount++;
         }
      
+        
 
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using UnityEngine;
 using TMPro;
 
@@ -46,4 +47,18 @@ public class OptionsMenu : MonoBehaviour
 
     }
     #endregion
+
+    public void AntiAliasing(bool active)
+    {
+
+        if (active)
+        {
+            QualitySettings.antiAliasing = 2;
+        }
+        else
+        {
+            QualitySettings.antiAliasing = 0;
+        }
+        
+    }
 }

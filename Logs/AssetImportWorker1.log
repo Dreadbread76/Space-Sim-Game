@@ -1,0 +1,613 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/ryana/Documents/GitHub/Space Sim Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56225
+Successfully changed project path to: C:/Users/ryana/Documents/GitHub/Space Sim Game
+C:/Users/ryana/Documents/GitHub/Space Sim Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ryana/Documents/GitHub/Space Sim Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M (ID=0x1392)
+    Vendor:   
+    VRAM:     4055 MB
+    Driver:   27.21.14.6611
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004631 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.889 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004115 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2458 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.6 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2895.
+Total: 4.581300 ms (FindLiveObjects: 0.589700 ms CreateObjectMapping: 0.497800 ms MarkObjects: 2.673800 ms  DeleteObjects: 0.818400 ms)
+
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20f445f72508a259faacf860869303a') in 0.355453 seconds
+  Import took 0.360679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.046171 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b883321ebaed3268bcf62557d8a2e0') in 0.014431 seconds
+  Import took 0.019972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003899 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b883321ebaed3268bcf62557d8a2e0') in 0.007676 seconds
+  Import took 0.012876 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003954 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2975.
+Total: 3.796000 ms (FindLiveObjects: 0.442900 ms CreateObjectMapping: 0.259500 ms MarkObjects: 2.282000 ms  DeleteObjects: 0.809800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 130.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2977.
+Total: 4.273500 ms (FindLiveObjects: 0.457100 ms CreateObjectMapping: 0.267000 ms MarkObjects: 2.682000 ms  DeleteObjects: 0.866000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.352 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 130.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2979.
+Total: 4.044100 ms (FindLiveObjects: 0.385000 ms CreateObjectMapping: 0.279400 ms MarkObjects: 2.453400 ms  DeleteObjects: 0.924200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 130.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 3.527500 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.273300 ms  DeleteObjects: 0.862800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 130.1 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2983.
+Total: 3.506000 ms (FindLiveObjects: 0.279500 ms CreateObjectMapping: 0.114400 ms MarkObjects: 2.213600 ms  DeleteObjects: 0.897100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 3.904400 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.178700 ms MarkObjects: 2.367900 ms  DeleteObjects: 1.025500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 472.388913 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0772c775e33f7a725e4a1b8b0fa6cae0') in 0.263462 seconds
+  Import took 0.270155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gamer Squid/Assets/Models/Materials/Lights.mat
+  artifactKey: Guid(7020127bc1cf2104fb77f1c0afe4daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Models/Materials/Lights.mat using Guid(7020127bc1cf2104fb77f1c0afe4daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8286182412ff4baca2e723952e74e27b') in 0.016932 seconds
+  Import took 0.021882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Lights/Lights.mat
+  artifactKey: Guid(325812d4ab63371419809ff05e776447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Lights/Lights.mat using Guid(325812d4ab63371419809ff05e776447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff15e7932528c46c3d9cf73ddeeecf5') in 0.020288 seconds
+  Import took 0.025104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gamer Squid/Assets/Models/Materials/Lights.mat
+  artifactKey: Guid(7020127bc1cf2104fb77f1c0afe4daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Models/Materials/Lights.mat using Guid(7020127bc1cf2104fb77f1c0afe4daf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8286182412ff4baca2e723952e74e27b') in 0.016751 seconds
+  Import took 0.022817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0772c775e33f7a725e4a1b8b0fa6cae0') in 0.014892 seconds
+  Import took 0.019751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
+  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f83808ff95c5d225b4a6ba8a6fbed8f') in 0.029762 seconds
+  Import took 0.035032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757654 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Vent/Metal Mesh.mat
+  artifactKey: Guid(3768be26f44e9a74c880d9f05dcf2279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Vent/Metal Mesh.mat using Guid(3768be26f44e9a74c880d9f05dcf2279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e024480698150cdf4dc5de858700fa81') in 0.081842 seconds
+  Import took 0.087873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf1360e2e23f536e85f27859df6405d') in 0.430303 seconds
+  Import took 0.435024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49640076c5bd57d9f1e8309535910cec') in 0.373181 seconds
+  Import took 0.377482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb652662b3b254204da21eb4d8fca509') in 0.015607 seconds
+  Import took 0.020638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d9461adf6682d331e4675149fb414e') in 0.379798 seconds
+  Import took 0.385201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec71dd66ac62b80ed7c46c77c45801c5') in 0.018407 seconds
+  Import took 0.024035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f444d9af1d940e8ec967c59b155f535b') in 0.045225 seconds
+  Import took 0.050306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Vent/Red Matte.mat
+  artifactKey: Guid(318699c7d72ed4643964804af98a24e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Vent/Red Matte.mat using Guid(318699c7d72ed4643964804af98a24e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd206a45bc3b1748ac921b21fef8062d') in 0.056418 seconds
+  Import took 0.061848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Exteria/Silver.mat
+  artifactKey: Guid(0ee03264de820c84db09f23e50cb24d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Exteria/Silver.mat using Guid(0ee03264de820c84db09f23e50cb24d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f90cd8a68cc6d7da406f968892c942') in 0.037510 seconds
+  Import took 0.043248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Exteria/Shiny Black.mat
+  artifactKey: Guid(b2067fc9051e1334a84261904d7cfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Exteria/Shiny Black.mat using Guid(b2067fc9051e1334a84261904d7cfed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcea31682046bfe5aefb8cc6aa7e132') in 0.036700 seconds
+  Import took 0.043273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Exteria/Shny Red.mat
+  artifactKey: Guid(b303465393770b64a921800a7e8e7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Exteria/Shny Red.mat using Guid(b303465393770b64a921800a7e8e7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd325ddd53052dd40d78d37531ce9e7e9') in 0.045760 seconds
+  Import took 0.051296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Exhaust/Shiny Black.mat
+  artifactKey: Guid(cd63fd152e9032a49bb881b7e0b5269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Exhaust/Shiny Black.mat using Guid(cd63fd152e9032a49bb881b7e0b5269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9167de87122a43d2fe596ffe4f41678') in 0.031131 seconds
+  Import took 0.037410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b2562bf4c97150d6eefe2c00af13da') in 0.020009 seconds
+  Import took 0.024689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab311d750f19da4ee46278ee65e8c04') in 0.018782 seconds
+  Import took 0.024413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.479538 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Body Trim/Steel.mat
+  artifactKey: Guid(2a80d4d363f18e346ba013fac2c52389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Body Trim/Steel.mat using Guid(2a80d4d363f18e346ba013fac2c52389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4653632468d02a1897567605c47562') in 0.031465 seconds
+  Import took 0.037311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449ce15dc41c79319544f3898965a15') in 0.021682 seconds
+  Import took 0.026573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Exteria/Worn Red.mat
+  artifactKey: Guid(c4ab5301cc875d7498a02556521f5276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Exteria/Worn Red.mat using Guid(c4ab5301cc875d7498a02556521f5276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8ea9bf99aa29c4354194ec53fa3fd') in 0.054901 seconds
+  Import took 0.060279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Exhaust/Steel Painted.mat
+  artifactKey: Guid(85dfc3b2e53c9574d926e13d05612b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Exhaust/Steel Painted.mat using Guid(85dfc3b2e53c9574d926e13d05612b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3e6afa9445d56e9e367dcbe96faf80') in 0.059064 seconds
+  Import took 0.064493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Exhaust/Steel Gun Metal.mat
+  artifactKey: Guid(a91c8d5d11aa4c541b4b1571d9f2d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Exhaust/Steel Gun Metal.mat using Guid(a91c8d5d11aa4c541b4b1571d9f2d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072a2b38d5154b2df50d7db236f0f238') in 0.053806 seconds
+  Import took 0.059258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Window/Window-Black.mat
+  artifactKey: Guid(8e0c99eadb2b798408bcf56a5a30b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Window/Window-Black.mat using Guid(8e0c99eadb2b798408bcf56a5a30b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25beff5ea1e25fa2e1dc19f13ab8fad5') in 0.047719 seconds
+  Import took 0.052740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Gamer Squid/Assets/Models/Materials/Window.mat
+  artifactKey: Guid(d7a4333738e00af43acd8dd03e8bcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Models/Materials/Window.mat using Guid(d7a4333738e00af43acd8dd03e8bcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42804eef63bf1c1c1ec2c81db5571075') in 0.017119 seconds
+  Import took 0.021895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Gamer Squid/Assets/Models/Materials/Vent.mat
+  artifactKey: Guid(06d83dc686e308a4c80ae51791f75d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Models/Materials/Vent.mat using Guid(06d83dc686e308a4c80ae51791f75d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966ce4fa351015a5bee1e2033a82958c') in 0.014850 seconds
+  Import took 0.019374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7e78fa3ed7b15ca5d0c7a765b1a997') in 0.025868 seconds
+  Import took 0.031121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.701912 seconds.
+  path: Assets/Gamer Squid/Assets/Materials/Window/Window-Dark Blue.mat
+  artifactKey: Guid(532b5dab293b5c34ca82873f45da18a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamer Squid/Assets/Materials/Window/Window-Dark Blue.mat using Guid(532b5dab293b5c34ca82873f45da18a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a2902ee2780ec73160669e173fc258') in 0.036057 seconds
+  Import took 0.042280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.545726 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffea7d2cd2689ec168c5cd737374f2f4') in 0.023374 seconds
+  Import took 0.028674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27170ce04168ad1f8fcaaa68e9dc1862') in 0.376799 seconds
+  Import took 0.381722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190a4d1a607546d5ac1266ab670371d9') in 0.018544 seconds
+  Import took 0.023102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5611edeebb402b15a473de3bc00294') in 0.037806 seconds
+  Import took 0.042181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dbd6a6db8716972a37f1b1c58ff8d3') in 0.021465 seconds
+  Import took 0.025963 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 12.226000 ms (FindLiveObjects: 1.547100 ms CreateObjectMapping: 0.754000 ms MarkObjects: 8.041200 ms  DeleteObjects: 1.878300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3025.
+Total: 4.215400 ms (FindLiveObjects: 0.372000 ms CreateObjectMapping: 0.231400 ms MarkObjects: 2.635800 ms  DeleteObjects: 0.974700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 755.763490 seconds.
+  path: Assets/Scripts/SpaceGame/Game/WriteConsoleToFile.cs
+  artifactKey: Guid(4f10144adf9644d49b10691bae276020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/WriteConsoleToFile.cs using Guid(4f10144adf9644d49b10691bae276020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a238bc6e67785895f82f12fabfeb34') in 0.023350 seconds
+  Import took 0.029159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096726 seconds.
+  path: Assets/Scripts/SpaceGame/Game/WriteConsoleToFile.cs
+  artifactKey: Guid(4f10144adf9644d49b10691bae276020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceGame/Game/WriteConsoleToFile.cs using Guid(4f10144adf9644d49b10691bae276020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a238bc6e67785895f82f12fabfeb34') in 0.006149 seconds
+  Import took 0.010915 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3027.
+Total: 4.193100 ms (FindLiveObjects: 0.501100 ms CreateObjectMapping: 0.276400 ms MarkObjects: 2.467900 ms  DeleteObjects: 0.945900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
