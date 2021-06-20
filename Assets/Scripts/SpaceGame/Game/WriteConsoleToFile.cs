@@ -15,7 +15,12 @@ public class WriteConsoleToFile : MonoBehaviour
     {
         Application.logMessageReceived -= Log;
     }
-
+    /// <summary>
+    /// Logging of errors and Null reference exceptions
+    /// </summary>
+    /// <param name="logString"> the number of log</param>
+    /// <param name="stackTrace">The description of the log </param>
+    /// <param name="type"> The type of log </param>
     public void Log(string logString, string stackTrace, LogType type)
     {
         string filePath =
@@ -41,6 +46,27 @@ public class WriteConsoleToFile : MonoBehaviour
             Debug.LogError(e);
         }
         catch (System.Exception e)
+        {
+            Application.logMessageReceived -= Log;
+            Debug.LogError(e);
+        }
+        finally
+        {
+            if (file != null)
+            {
+                file.Close();
+            }
+        }
+
+
+        try
+        {
+
+            file.WriteLine("[" + System.DateTime.Now.ToString("d : t") + "]" + logString + "\n" + stackTrace);
+
+          
+        }
+        catch (System.NullReferenceException e)
         {
             Application.logMessageReceived -= Log;
             Debug.LogError(e);

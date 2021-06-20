@@ -47,6 +47,7 @@ public class ShipScript : MonoBehaviour
 
     private void Start()
     {
+        healthText.text = "Health: " + currentHealth;
         collisionText.gameObject.SetActive(false);
         deployText.gameObject.SetActive(false);
     }
@@ -82,13 +83,18 @@ public class ShipScript : MonoBehaviour
         }
     }
 
-   
+   /// <summary>
+   /// When the ship gets hit, do this
+   /// </summary>
     private void Hit()
     {
         anim.Play("Shield Flare");
        
     }
-
+    /// <summary>
+    /// When entering a collider designated as a trigger
+    /// </summary>
+    /// <param name="other"> the collider set to a trigger</param>
     public void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Cube")
@@ -100,5 +106,16 @@ public class ShipScript : MonoBehaviour
             deployText.gameObject.SetActive(false);
         }
     }
-    
+    /// <summary>
+    /// When colliding with another gameobject
+    /// </summary>
+    /// <param name="collision"> The gameobject hit</param>
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ship") || collision.gameObject.CompareTag("Asteroid"))
+        {
+            currentHealth -= 10;
+        }
+    }
+
 }

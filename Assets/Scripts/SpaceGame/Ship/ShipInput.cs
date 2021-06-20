@@ -100,6 +100,9 @@ namespace Spacegame.Ship.Player
 
 
         }
+        /// <summary>
+        /// Mouse controls 
+        /// </summary>
         private void SetStickCommandUsingMouse()
         {
             Vector3 mousePos = Input.mousePosition;
@@ -110,6 +113,12 @@ namespace Spacegame.Ship.Player
             pitch = Mathf.Clamp(pitch, -1.0f, 1f);
             yaw = Mathf.Clamp(yaw, -1.0f, 1f);
         }
+
+        /// <summary>
+        /// The keyboard increasing or decreasing of the throttle amount
+        /// </summary>
+        /// <param name="increaseKey"> Throttle increasing </param>
+        /// <param name="decreaseKey">Throttle Decreasing </param>
         public void UpdateKeyboardThrottle(KeyCode increaseKey, KeyCode decreaseKey)
         {
             float target = throttle;
@@ -123,7 +132,9 @@ namespace Spacegame.Ship.Player
             }
             throttle = Mathf.MoveTowards(throttle, target, Time.deltaTime * throttleSpeed);
         }
-  
+        /// <summary>
+        /// The mouse wheel increasing or decreasing of the throttle amount
+        /// </summary>
         private void UpdateMouseWheelThrottle()
         {
             throttle += Input.GetAxis("Mouse ScrollWheel");
@@ -135,7 +146,10 @@ namespace Spacegame.Ship.Player
         {
             
         }
-
+        /// <summary>
+        /// Mining of the asteroid
+        /// </summary>
+        /// <param name="selectedAst"> the asteroid targeted</param>
         private void MineAsteroid(Asteroid selectedAst)
         {
             selectedAst.resourceAmount--;

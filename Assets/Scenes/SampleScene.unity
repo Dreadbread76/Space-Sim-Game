@@ -3890,13 +3890,13 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.6
+  - screenRelativeHeight: 0.7837485
     fadeTransitionWidth: 0
     renderers: []
-  - screenRelativeHeight: 0.3
+  - screenRelativeHeight: 0.51705664
     fadeTransitionWidth: 0
     renderers: []
-  - screenRelativeHeight: 0.1
+  - screenRelativeHeight: 0.27520666
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
@@ -4606,8 +4606,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1606973141}
   - {fileID: 1732266615}
+  - {fileID: 1606973141}
   - {fileID: 618409589}
   - {fileID: 153985153}
   m_Father: {fileID: 0}
@@ -6361,7 +6361,7 @@ RectTransform:
   - {fileID: 948925040}
   - {fileID: 38744213}
   m_Father: {fileID: 1185070782}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6381,6 +6381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolutionDropdown: {fileID: 1349146228}
+  fpsDropdown: {fileID: 1988595430}
 --- !u!114 &1625153521 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1625153521, guid: 4499f120aad9d344baa4e39499593e21, type: 3}
@@ -6768,7 +6769,7 @@ RectTransform:
   - {fileID: 12240452}
   - {fileID: 994528628}
   m_Father: {fileID: 1185070782}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
